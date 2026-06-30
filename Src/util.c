@@ -372,7 +372,7 @@ void Input_Init(void) {
 
     if(LCD_Init(&lcd)!=LCD_OK) {
         // error occured
-        //TODO while(1);
+        //T O D O while(1);
     }
 
     LCD_ClearDisplay(&lcd);

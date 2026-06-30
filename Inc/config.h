@@ -80,6 +80,7 @@
 #define BAT_CELLS               8 //10        // battery number of cells. Normal Hoverboard battery: 10s
 
 #define BAT_LVL2_ENABLE         0         // to beep or not to beep, 1 or 0
+// TODO Вернуть звук при разраде батареи
 #define BAT_LVL1_ENABLE         0//1         // to beep or not to beep, 1 or 0
 #define BAT_DEAD_ENABLE         1         // to poweroff or not to poweroff, 1 or 0
 #define BAT_BLINK_INTERVAL      80        // battery led blink interval (80 loops * 5ms ~= 400ms)
@@ -587,7 +588,7 @@
 
 
 // ################################# VARIANT_TRANSPOTTER SETTINGS ############################
-//TODO ADD VALIDATION
+//_TODO ADD VALIDATION
 #ifdef VARIANT_TRANSPOTTER
   #define FLASH_WRITE_KEY     0x1009    // Flash memory writing key. Change this key to ignore the input calibrations from the flash memory and use the ones in config.h
   #define CONTROL_GAMETRAK
